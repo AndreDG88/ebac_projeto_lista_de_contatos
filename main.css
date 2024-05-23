@@ -1,0 +1,250 @@
+/*RESET E ESTILOS GLOBAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*CONFIGURAÇÃO HEADER*/
+header {
+    padding: 24px 0;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo img {
+    padding-right: 5px;
+    width: 100px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container h1 {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    font-style: normal;
+    color: rgb(0, 77, 179);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ,.container li {
+    display: inline;
+    margin: 12px;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header .container li a {
+    color: rgb(0, 0, 0);
+}
+
+header .container li a:hover {
+    color: rgb(0, 124, 27);
+}
+
+/*CONFIGURAÇÃO PÁGINA AGENDA DE CONTATOS*/
+.agendaContatos {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: block;
+    background-color:rgb(0, 77, 179);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px #919191;
+    margin-bottom: 30px;
+}
+
+table{
+    padding: 35px;
+    background-color: rgb(188, 255, 202);
+    text-align: left;
+    width: 650px;
+    height: 305px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px #919191;
+    margin-bottom: 30px;
+}
+
+table td{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+}
+
+table th{
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-bottom: 15px;
+    margin-top:5px;
+}
+
+label {
+    font-size: 20pt;
+    color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: rgb(0, 77, 179);
+    cursor: pointer;
+    color: #f2f2f2;
+    margin-top: 15px;
+    padding: 10px;
+    padding-inline: 20px;
+    font-size: 20pt;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(34, 49, 248);
+}
+
+/*CONFIGURAÇÃO PÁGINA SOBRE*/
+section .container {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#sobre {
+    background-color: rgb(218, 218, 218);
+}
+
+section {
+    padding: 24px 0;
+}
+
+.the_office_gif {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    height: 400px;
+    box-shadow: 0px 5px 20px #000;
+}
+
+section h2 {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 124, 27);
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/*CONFIGURAÇÃO PÁGINA CONTATO*/
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+form button {
+    background-color: rgb(0, 180, 39);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(0, 180, 39);
+}
+
+/*CONFIGURAÇÃO RODAPÉ*/
+footer,
+footer .container p {
+    background-color: rgb(0, 77, 179);
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
